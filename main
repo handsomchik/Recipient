@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <div id="logo-title">
+                <p id="title-p">Реципиент</p>
+            </div>
+            <div id="search-bar">
+                <span class="material-symbols-outlined search">
+                    search
+                </span>
+              <input type="text" id="search-input">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main-div">
+            <img src="burger.png" id ="burg">
+            <p id="desc-p">
+                Этот сайт поможет вам приготовить множество разных блюд, стоит только найти рецепт в нашем поиске. Приятного аппетита!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-div">
+            <p id="footer-p">Это наша работа!</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
